@@ -2,5 +2,9 @@
   "challenge_module": "Challenge",
   "solution_module": "Solution",
   "theorem_names": ["todo1"],
-  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "toolchain": {
+    "lean": "4.32.0",
+    "comparator": "4.32.0"
+  }
 }
